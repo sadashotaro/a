@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body{
+  max-width: fit-content;
+}
+  
+.white{
+    color: white;
+  }
+
+p{
+  font-size: 18px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+}
+
+div.main h1{
+  writing-mode: vertical-lr;
+  font-size: 28px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: 400;
+  line-height: 100px;
+  position: relative;
+  right: 420px;
+  top: 200px;
+}
+
+div#haikei{
+  max-width: 100%;
+  vertical-align: bottom;
+  margin: 20px;
+  position: relative;
+}
+
+div.menu img{
+  padding-top: 100px;
+}
+
+div.menu ul{
+  text-align: center;
+}
+
+div.main{
+    display: flex;
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 250px;
+    padding-bottom: 200px;
+}
+
+.fadein{
+  animation-name:fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeInAnime{
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+  
+
+  .fadeintrigger{
+    opacity: 0;
+}
+
+ 
+div.menu{
+  border-radius: 30px 0px 0px 30px;
+  border: solid 1px;
+  border-right: none;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  padding: 150px 40px 100px 40px;
+}
+
+h2{
+  font-size: 18px;
+  font-family: Zapfino;
+}
+
+
+
+div.about h3{
+  font-size: 30px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+div.about h4{
+  font-size: 16px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+}
+
+div.about{
+  padding: 0px 300px 250px 300px;
+}
+
+div.about ul{
+  font-family: A P-OTF A1ゴシック StdN;
+  font-size: 26px;
+  line-height: 47px;
+  font-feature-settings: "palt";
+  font-weight: 500;
+  padding-left: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.about img{
+  position: relative;
+  right: 300px;
+  left: 600px;
+  bottom: 565px;
+}
+
+div.about p{
+  padding-left: 35px;
+  padding-bottom: 50px;
+  line-height: 30px;
+}
+
+.kuwasiku{
+  position: relative;
+  left: 25px;
+  display: flex;
+  justify-content: end;
+  width: 500px;
+  border-bottom: 2px solid;
+  padding-bottom: 3px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-size: 18px;
+}
+
+div.products h3{
+  font-size: 30px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+  padding-left: 300px;
+  margin-top: -600px;
+  padding-bottom: 10px;
+}
+
+div.products h4{
+  font-size: 16px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  padding-left: 300px;
+  padding-bottom: 50px;
+}
+
+div.products p{
+  line-height: 30px;
+  text-align: center;
+}
+
+.kurasi{
+  background-color: rgb(209, 170, 141);
+  padding-top: 45px;
+  padding-bottom: 130px;
+  width: 1100px;
+  margin-left: auto;
+}
+#kusuguru{
+  background-color: rgb(242, 212, 150);
+  margin-right: auto;
+  padding-top: 45px;
+  padding-bottom: 130px;
+  width: 1100px;
+}
+.forumu{
+  background-color: rgb(155, 161, 144);
+  padding-top: 45px;
+  padding-bottom: 130px;
+  width: 1100px;
+  margin-left: auto;
+}
+
+
+.midasi{
+  color: white;
+  font-size: 72px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  margin-left: 1100px;
+  margin-top: -80px;
+}
+
+.hidarimidasi{
+  color: white;
+  font-size: 72px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt"; 
+  margin-left: 500px;
+  margin-top: -80px;
+}
+
+div.products ul.kusu{
+  margin-left: 30px;
+}
+
+.itiran{
+  display: flex;
+  justify-content: end;
+  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  margin-left: 1100px;
+  border-bottom: 2px solid;
+  padding-bottom: 3px;
+}
+
+div.products ul{
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  margin-left: 320px;
+  margin-top: -280px;
+}
+
+
+div#events h3{
+  font-size: 30px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+  padding-left: 300px;
+  padding-bottom: 10px;
+}
+
+div#events h4{
+  font-size: 16px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  padding-left: 300px;
+  padding-bottom: 50px;
+}
+
+div#events ul{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+div.eve img{
+  margin-bottom: 20px;
+}
+
+div.eve p{
+  line-height: 24px;
+  text-align: center;
+}
+
+div.eve{
+  margin-top: -160px;
+  margin-left: 10px;
+}
+
+div#achievements h3{
+  font-size: 30px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+  padding-top: 200px;
+  padding-left: 300px;
+  padding-bottom: 10px;
+}
+
+div#achievements h4{
+  font-size: 16px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  padding-left: 300px;
+  padding-bottom: 50px;
+}
+
+div#achievements ul{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: -345px;
+}
+
+div#achievements img{
+  position: relative;
+  top: 345px;
+  z-index: 1;
+}
+
+div#achievements ul h3{
+  padding: 30px 50px 30px 50px;
+  font-size: 26px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  
+}
+
+div#achievements ul p{
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+div#achievements ul h4{
+  padding-left: 165px;
+  padding-right: 165px;
+  font-size: 22px;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  position: relative;
+  z-index: 4;
+}
+
+div#information h3{
+  font-size: 30px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+  padding-left: 300px;
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+div#information h4{
+  font-size: 16px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  padding-left: 300px;
+  padding-bottom: 50px;
+}
+
+div#information ul{
+  width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 40px;
+}
+
+div#information ul p{
+  margin-left: 120px;
+  margin-top: 15px;
+}
+
+.day{
+  font-size: 14px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.ibento{
+  color: rgb(125, 196, 198);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  margin-left: 120px;
+  margin-top: -15px;
+}
+
+.seihin{
+  color: rgb(230, 193, 39);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  margin-left: 120px;
+  margin-top: -15px;
+}
+
+.sonota{
+  color: rgb(252, 169, 146);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  margin-left: 120px;
+  margin-top: -15px;
+}
+
+div#onlineshop h3.white{
+  font-size: 30px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+}
+
+div#onlineshop{
+  background-image: url(../img/online\ shop.png);
+  margin-top: 200px;
+}
+
+div#onlineshop h3{
+  padding-top: 35px;
+  padding-left: 100px;
+
+}
+
+div#onlineshop p{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  line-height: 24px;
+}
+
+div#contact h3.white{
+  font-size: 30px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+div#contact h4.white{
+  font-size: 16px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt"; 
+}
+
+div#contact{
+  background-color: rgb(52, 52, 52);
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+div#footer h5{
+  font-size: 18px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-feature-settings: "palt";
+  font-weight: bold;
+}
+
+div#footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+
+div#footer p{
+  padding-top: 10px;
+}
+
+div#footer h5{
+  padding-bottom: 20px;
+}
+
+div#foot{
+  padding-top: 140px;
+  padding-bottom: 20px;
+  font-family: A P-OTF A1ゴシック StdN;
+  font-size: 12px;
+  font-feature-settings: "palt";
+  font-weight: lighter;
+}
